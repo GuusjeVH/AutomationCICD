@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.081" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\g.vanhamersveld\.cache\selenium\chromedriver\win64\125.0.6422.78\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\g.vanhamersveld\eclipse-workspace\SeleniumFrameworkDesign\target\test-classes;C:\Users\g.vanhamersveld\eclipse-workspace\SeleniumFrameworkDesign\target\classes;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\g.vanhamersveld\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\g.vanhamersveld\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\g.vanhamersveld\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\g.vanhamersveld\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\g.vanhamersveld\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\g.vanhamersveld\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\g.vanhamersveld\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\g.vanhamersveld\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\g.vanhamersveld\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\g.vanhamersveld\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\g.vanhamersveld\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\g.vanhamersveld\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\g.vanhamersveld\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\g.vanhamersveld\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\g.vanhamersveld\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13\bin"/>
+    <property name="sun.java.command" value="C:\Users\g.vanhamersveld\AppData\Local\Temp\surefire9212481174212508254\surefirebooter-20240529110136622_3.jar C:\Users\g.vanhamersveld\AppData\Local\Temp\surefire9212481174212508254 2024-05-29T11-01-36_384-jvmRun1 surefire-20240529110136622_1tmp surefire_0-20240529110136622_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\g.vanhamersveld\eclipse-workspace\SeleniumFrameworkDesign\target\test-classes;C:\Users\g.vanhamersveld\eclipse-workspace\SeleniumFrameworkDesign\target\classes;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\g.vanhamersveld\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\g.vanhamersveld\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\g.vanhamersveld\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\g.vanhamersveld\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\g.vanhamersveld\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\g.vanhamersveld\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\g.vanhamersveld\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\g.vanhamersveld\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\g.vanhamersveld\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\g.vanhamersveld\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\g.vanhamersveld\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\g.vanhamersveld\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\g.vanhamersveld\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\g.vanhamersveld\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\g.vanhamersveld\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\g.vanhamersveld\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\g.vanhamersveld\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\g.vanhamersveld\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\g.vanhamersveld\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\g.vanhamersveld\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\g.vanhamersveld"/>
+    <property name="user.language" value="nl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-09-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\g.vanhamersveld\eclipse-workspace\SeleniumFrameworkDesign"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\g.vanhamersveld\AppData\Local\Temp\surefire9212481174212508254\surefirebooter-20240529110136622_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13+33"/>
+    <property name="user.name" value="g.vanhamersveld"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="browser" value="chromeheadless"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\g.vanhamersveld\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\G8724~1.VAN\AppData\Local\Temp\"/>
+    <property name="java.version" value="13"/>
+    <property name="user.dir" value="C:\Users\g.vanhamersveld\eclipse-workspace\SeleniumFrameworkDesign"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\nodejs\npm;C:\Program Files\Java\jdk-21\bin;C:\Program Files\dotnet\;C:\Program Files\Maven\apache-maven-3.9.7\bin;C:\Users\g.vanhamersveld\AppData\Local\Programs\Python\Launcher\;C:\Users\g.vanhamersveld\AppData\Local\Microsoft\WindowsApps;C:\Users\g.vanhamersveld\AppData\Roaming\npm;C:\Users\g.vanhamersveld\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\g.vanhamersveld\chromedriver.exe;C:\Users\g.vanhamersveld\.dotnet\tools;C:\Program Files\Maven\apache-maven-3.9.7\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13+33"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="LoginErrorValidation" classname="rahulshettyacademy.tests.ErrorValidationsTest" time="1.057">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+mei 29, 2024 11:01:39 A.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+mei 29, 2024 11:01:39 A.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="ProductErrorValidation" classname="rahulshettyacademy.tests.ErrorValidationsTest" time="2.631">
+    <system-err><![CDATA[mei 29, 2024 11:01:47 A.M. org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1153)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:821)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:198)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:271)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:224)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:763)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:941)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:245)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:968)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:923)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:923)
+
+mei 29, 2024 11:01:48 A.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="submitOrder[{password=Testing123., product=ZARA COAT 3, email=guusje@test.com}](1)" classname="rahulshettyacademy.tests.SubmitOrderTest" time="3.865">
+    <system-err><![CDATA[mei 29, 2024 11:01:44 A.M. org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1153)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:821)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:198)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:271)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:224)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:763)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:941)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:245)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:968)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:923)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:923)
+
+mei 29, 2024 11:01:46 A.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="submitOrder[{password=Testing123., product=ADIDAS ORIGINAL, email=testguus@test.com}](2)" classname="rahulshettyacademy.tests.SubmitOrderTest" time="3.557">
+    <system-err><![CDATA[mei 29, 2024 11:01:52 A.M. org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1153)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:821)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:198)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:271)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:224)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:763)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:941)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:245)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:968)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:923)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:923)
+
+]]></system-err>
+  </testcase>
+  <testcase name="OrderHistoryTest" classname="rahulshettyacademy.tests.SubmitOrderTest" time="0.767">
+    <system-err><![CDATA[mei 29, 2024 11:01:56 A.M. org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1153)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:821)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:175)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:198)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:271)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:224)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:763)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:941)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:245)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:968)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:923)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:923)
+
+mei 29, 2024 11:01:57 A.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+</testsuite>
